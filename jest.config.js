@@ -12,4 +12,5 @@ export default {
   coverageDirectory: "coverage",
   coverageReporters: ["lcov", "text"],
   testEnvironment: "node",
+  modulePathIgnorePatterns: ['node_modules/'],
 };
